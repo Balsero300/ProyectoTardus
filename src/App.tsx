@@ -1,11 +1,9 @@
-const nombre = 'Luca'
+import './App.css'
+
 function App() {
-  //Estado
-  //Ciclo de vida
-  //jsx
   return (
     <div className="App">
-      <h1>Hola mundo {nombre}</h1>
+      <h1>Hola mundo</h1>
     </div>
   )
 }
