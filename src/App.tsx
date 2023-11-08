@@ -1,10 +1,10 @@
 import './App.css'
-
+import Cavecera from './Componentes/Cavecera.jsx'
 
 function App() {
   return (
-    <div class="header">
-      
+    <div className='App'>
+      <Cavecera />
     </div>
   )
 }

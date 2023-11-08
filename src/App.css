@@ -2,11 +2,3 @@ body{
   background-color: #000650;
   margin: 0;
 }
-.header{
-  display: grid;
-  grid-template-columns: 1fr 3fr; /* Dos columnas, una más ancha que la otra */
-  align-items: center; /* Centra verticalmente los elementos */
-  background-color: #000113; /* Color de fondo del encabezado */
-  color: white; /* Color del texto */
-  padding: 10%;
-}
