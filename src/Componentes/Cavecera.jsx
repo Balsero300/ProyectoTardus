@@ -18,11 +18,9 @@ function Cavecera (){
             </button>
             <nav className={ `emcabezado-nav ${ menu ? 'isActive' : '' }` }>
                 <ul className="encabezado-ul">
-                    <li className="encavezado-li"><a href="" className="encavezado-a">Item 1</a></li>
-                    <li className="encavezado-li"><a href="" className="encavezado-a">Item 2</a></li>
-                    <li className="encavezado-li"><a href="" className="encavezado-a">Item 3</a></li>
-                    <li className="encavezado-li"><a href="" className="encavezado-a">Item 4</a></li>
-                    <li className="encavezado-li"><a href="" className="encavezado-a">Item 5</a></li>
+                    <li className="encavezado-li"><a href="" className="encavezado-a">Inicio</a></li>
+                    <li className="encavezado-li"><a href="" className="encavezado-a">Registro</a></li>
+                    <li className="encavezado-li"><a href="" className="encavezado-a">Usuario</a></li>
                 </ul>
             </nav>
         </header>

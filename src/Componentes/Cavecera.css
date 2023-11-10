@@ -7,6 +7,10 @@
     align-items: center;
     color: white;
 }
+.encavezado-a{
+    text-decoration: none;
+    color: white;
+}
 .encabezado-boton{
     background-color: rgb(2, 0, 20);
     border: none;
@@ -26,6 +30,7 @@
 }
 .encavezado-li{
     margin: 0 .5em;
+    list-style-type: none;
 }
 @media screen and (max-width:480px){
     .encabezado-boton{
