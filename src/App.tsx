@@ -1,11 +1,8 @@
-import './App.css'
-import Cavecera from './Componentes/Cavecera.jsx'
+import Router from './router/AppRouter'
 
 function App() {
   return (
-    <div className='App'>
-      <Cavecera />
-    </div>
+    <Router />
   )
 }
 
