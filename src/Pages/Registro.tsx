@@ -1,7 +1,7 @@
-function registro() {
+function Registro() {
     return (
       <h1>Hola</h1>
    )
 }
 
-export default registro
+export default Registro
