@@ -1,4 +1,3 @@
-import '../Componentes/Registro.css'
 import '../Componentes/Inicio_S.css'
 
 function Registro() {
@@ -35,13 +34,13 @@ function Registro() {
             </form>
             <p>¿Ya tienes una cuenta? <a href="#">Inicia Secion</a></p>
             <div className="buttons-container">
-           <button className="Cancelar" type="button">
-             Cancelar
-           </button>
-           <button className="Inicio" type='button'>
-             Registrarse
-           </button>
-         </div>
+                <button className="Cancelar" type="button">
+                    Cancelar
+                </button>
+                <button className="Inicio" type='button'>
+                    Registrarse
+                </button>
+            </div>
         </div>
     )
 }
