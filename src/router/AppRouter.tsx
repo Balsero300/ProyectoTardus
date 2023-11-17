@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 import Inicio from '../Pages/Pagina'
-import Registro from '../Pages/Registro'
+import Secion from '../Pages/Inicio_S'
 
 function Router() {
     return(
         <Routes>
-            <Route path='/registro' element={<Registro/>} />
+            <Route path='/secion' element={<Secion/>} />
             <Route path='/inicio' element={<Inicio/>} />
         </Routes>
     )
