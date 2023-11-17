@@ -25,7 +25,7 @@
 .buttons-container {
     display: flex;
     justify-content: center;
-    gap: 60px; /* Espacio entre los botones */
+    gap: 50px; 
 }
 
 .Cancelar,
