@@ -1,11 +1,10 @@
-const nombre = 'Luca'
+import './App.css'
+import Cavecera from './Componentes/Cavecera.jsx'
+
 function App() {
-  //Estado
-  //Ciclo de vida
-  //jsx
   return (
-    <div className="App">
-      <h1>Hola mundo {nombre}</h1>
+    <div className='App'>
+      <Cavecera />
     </div>
   )
 }
