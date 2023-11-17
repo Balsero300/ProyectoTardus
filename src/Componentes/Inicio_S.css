@@ -5,40 +5,44 @@
     justify-content: center;
     height: 100vh;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-  
+
 .Form {
     text-align: center;
 }
-  
+
 .Inp {
     padding: 8px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 15px;
     font-size: 16px;
+    width: 80%;
+    max-width: 300px;
 }
-  
+
 .buttons-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px; /* Espacio entre los botones */
 }
-  
+
 .Cancelar,
 .Inicio {
-    width: 100px;
+    flex: 1;
     padding: 10px;
-    background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
 }
-.Cancelar{
-    background: red;
+
+.Cancelar {
+    background-color: red;
 }
-.Inicio{
-    background: blue;
+
+.Inicio {
+    background-color: blue;
 }
