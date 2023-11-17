@@ -4,13 +4,13 @@ function Secion() {
    return (
      <div className='container'>
        <h2>Inicie sesión</h2>
-       <form>
+       <form className="Form">
          <label>
-           <input type="text" placeholder='Usuario'/>
+           <input className="Inp" type="text" placeholder='Usuario'/>
          </label>
          <br />
          <label>
-           <input type="password" placeholder='Contraseña'/>
+           <input className="Inp" type="password" placeholder='Contraseña'/>
          </label>
          <br />
          <p>¿Has olvidado la contraseña? Vuelve a recordarla</p>
